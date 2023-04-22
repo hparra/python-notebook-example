@@ -3,6 +3,8 @@
 Quick example of python/jupyter notebook.
 I also wanted to see difference in Github Enterprise.
 
+[Main repo on Github](https://github.com/hparra/python-notebook-example/).
+
 ## Setting up repo from clone
 
 ```sh
@@ -63,6 +65,8 @@ git remote add NAME URL
 # do it!
 git push NAME BRANCH
 ```
+
+Looks like they work just fine in GitHub Enterprise Server 3.6.7.
 
 ## References
 
