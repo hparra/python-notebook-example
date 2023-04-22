@@ -1,7 +1,7 @@
 # python-notebook-example
 
 Quick example of python/jupyter notebook.
-VS Code has some native support of Jupyter notebooks.
+I also wanted to see difference in Github Enterprise.
 
 ## Setting up repo from clone
 
@@ -44,6 +44,26 @@ pip freeze > requirements.txt
 touch example.ipynb
 ```
 
+## Editing *.ipyb
+
+VS Code has great support.
+
+## Testing Github Enterprise
+
+Is this going to work there?
+Just create new repo there and add as new remote.
+
+```sh
+# check your remotes
+git remote -v
+
+# add new remote
+git remote add NAME URL
+
+# do it!
+git push NAME BRANCH
+```
+
 ## References
 
 [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
@@ -56,3 +76,6 @@ note.nkmk.me.
 [Keeping credentials safe in Jupyter Notebooks](https://towardsdatascience.com/keeping-credentials-safe-in-jupyter-notebooks-fbd215a8e311).
 Alexandra Souly.
 Towards Data Science.
+
+[Managing remote repositories](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories).
+Github.
