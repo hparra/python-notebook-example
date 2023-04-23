@@ -1,7 +1,7 @@
 # python-notebook-example
 
 Quick example of python/jupyter notebook.
-I also wanted to see difference in Github Enterprise.
+I also wanted to see if there were any differences in Github Enterprise.
 
 [Main repo on Github](https://github.com/hparra/python-notebook-example/).
 
@@ -9,6 +9,7 @@ I also wanted to see difference in Github Enterprise.
 
 ```sh
 # check on your python
+# you should have major version 3
 python --version
 
 # create a virtual environment in your project folder
@@ -18,8 +19,8 @@ python -m venv .venv
 # activate the virtual env
 source .venv/bin/activate
 
-# install dependecies
-pip -r requirements.txt
+# install dependencies
+pip install -r requirements.txt
 ```
 
 ## Creating this repo from scratch
@@ -66,7 +67,7 @@ git remote add NAME URL
 git push NAME BRANCH
 ```
 
-Looks like they work just fine in GitHub Enterprise Server 3.6.7.
+Looks like they work just fine on GitHub Enterprise Server 3.6.7.
 
 ## References
 
